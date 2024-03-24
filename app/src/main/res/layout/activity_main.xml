@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.ejercicio24.Lienzo
+        android:id="@+id/viewfirma"
+        android:layout_width="401dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#776363"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtdescripcion"
+        android:layout_width="340dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/Decripc"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F1DE36"
+        android:text="@string/btnSalva"
+        android:textColor="#121111"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F1DE36"
+        android:text="@string/btnLista"
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

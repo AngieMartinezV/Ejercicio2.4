@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio2.4</string>
+    <string name="Decripc">Descripcion</string>
+    <string name="btnSalva">GUARDAR</string>
+    <string name="btnLista">LISTA</string>
+    <string name="btnRegresar">REGRESAR</string>
+
+
+</resources>
